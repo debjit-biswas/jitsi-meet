@@ -103,7 +103,8 @@ export class AbstractApp extends BaseApp<Props, *> {
      * mounts.
      */
     _getDefaultURL() {
-        return getDefaultURL(this.state.store);
+//        return getDefaultURL(this.state.store);
+        return 'https://meet.softofficepro.com';
     }
 
     /**

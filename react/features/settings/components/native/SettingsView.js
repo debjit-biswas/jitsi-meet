@@ -139,7 +139,7 @@ class SettingsView extends AbstractSettingsView<Props, State> {
                         <TextInput
                             autoCorrect = { false }
                             onChangeText = { this._onChangeDisplayName }
-                            placeholder = 'John Doe'
+                            placeholder = 'Softofficepro Executive'
                             value = { displayName } />
                     </FormRow>
                     <FormRow
@@ -150,7 +150,7 @@ class SettingsView extends AbstractSettingsView<Props, State> {
                             autoCorrect = { false }
                             keyboardType = { 'email-address' }
                             onChangeText = { this._onChangeEmail }
-                            placeholder = 'email@example.com'
+                            placeholder = 'info@esoftofficepro.com'
                             value = { email } />
                     </FormRow>
                     <FormSectionHeader

@@ -101,7 +101,7 @@ class WelcomePageSideBar extends Component<Props> {
                             icon = { IconSettings }
                             label = 'settings.title'
                             onPress = { this._onOpenSettings } />
-                        <SideBarItem
+{/*                         <SideBarItem
                             icon = { IconInfo }
                             label = 'welcomepage.terms'
                             url = { TERMS_URL } />
@@ -112,7 +112,7 @@ class WelcomePageSideBar extends Component<Props> {
                         <SideBarItem
                             icon = { IconHelp }
                             label = 'welcomepage.getHelp'
-                            onPress = { this._onOpenHelpPage } />
+                            onPress = { this._onOpenHelpPage } /> */}
                     </ScrollView>
                 </SafeAreaView>
             </SlidingView>
